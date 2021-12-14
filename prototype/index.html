@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="js" lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="icon" type="image/png" href="/favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" href="../css/prototype.css" media="all">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="../fontawesome/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;0,800;0,900;1,200&display=swap" rel="stylesheet">
+</head>
+<body id="index-page">
+	<div class="intro-box">
+		<div class="intro-wrapper">
+			<h2>This is the PC version<br/>of Trendio's digital TV app</h2>
+			<div class="intro-devices-box">
+				<div class="intro-device-item">
+					<img src="../media/keys.jpg" />
+					<div class="caption">Navigate this prototype using the <strong>cursor, Enter and Space keys</strong> on your <strong>keyboard</strong>.</div>
+				</div>
+				<div class="intro-device-item">
+					<img src="../media/remote.jpg" />
+					<div class="caption">For a more realistic TV experience, you can also <strong>pair your digital TV remote</strong> with your computer.</div>
+				</div>
+			</div>
+			<p>[ The first screen you will see will be the typical starting one you can find on your Connected TV. ]</p>
+			<div class="center active-column">
+				<a id="launch-proto" href="home.html" class="btn buy-btn">Click ENTER to start</a>
+			</div>
+		</div>	
+	</div>
+	<script>
+		let launchIt = document.getElementById("index-page");
+		launchIt.addEventListener("keyup", function(event) {
+		  if (event.keyCode === 13) {
+		    // Cancel the default action
+		    event.preventDefault();
+		    // Trigger the button element with a click
+		    document.getElementById("launch-proto").click();
+		  }
+		});
+	</script>
+</body>
+</html>

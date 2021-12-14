@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" version="1.1" viewBox="0 0 1920 1080" height="1080px" width="1920px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <title>Product detail Page (style)</title>
+    <defs>
+        <radialGradient id="radialGradient-1" gradientTransform="translate(0.552083,0.500000),scale(0.562500,1.000000),rotate(90.000001),scale(1.000000,1.777778),translate(-0.552083,-0.500000)" r="50%" fy="50.0000035%" fx="55.2083373%" cy="50.0000035%" cx="55.2083373%">
+            <stop offset="0%" stop-color="#29375B"></stop>
+            <stop offset="100%" stop-color="#21272D"></stop>
+        </radialGradient>
+    </defs>
+    <g fill-opacity="0.7" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="UI-v2">
+        <rect height="1080" width="1920" y="0" x="0" fill-rule="nonzero" fill="url(#radialGradient-1)" id="Product-detail-Page-(style)"></rect>
+    </g>
+</svg>

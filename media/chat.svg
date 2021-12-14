@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" version="1.1" viewBox="0 0 402 530" height="530px" width="402px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <title>Bitmap</title>
+    <defs>
+        <linearGradient id="linearGradient-1" y2="50.6430885%" x2="173.064986%" y1="50.6421776%" x1="9.13372799%">
+            <stop offset="0%" stop-color="#141432"></stop>
+            <stop offset="9.52504367%" stop-color="#141432"></stop>
+            <stop offset="34.0214373%" stop-opacity="0" stop-color="#141432"></stop>
+            <stop offset="100%" stop-opacity="0" stop-color="#141432"></stop>
+        </linearGradient>
+    </defs>
+    <g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="UI-v2">
+        <g fill-rule="nonzero" fill="url(#linearGradient-1)" transform="translate(0.500014, 0.000000)" id="ChatBox">
+            <rect height="530" width="619" y="0" x="0" id="Bitmap"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="js" lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="icon" type="image/png" href="/favicon.ico">
+	<link rel="stylesheet" href="../css/prototype.css" media="all">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;0,800;0,900;1,200&display=swap" rel="stylesheet">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link href="../fontawesome/css/all.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous" defer></script> 
+	<script src="../js/trendio.js" defer></script> 
+	<script src="../js/product.js" defer></script> 
+	<script src="../js/video.js" defer></script>
+</head>
+<body id="product-page">
+	<div class="wrapper">
+		<div class="outer_div">
+			<div id="context-main" class="context-area">
+				<div id="video" data-source=""></div>
+				<canvas id="my_canvas" style="display:none;"></canvas>
+			    <div class="live-box">
+			    	<div class="live-wrapper">
+				    	<div class="live-alert">Live</div>
+			    	</div>
+			    </div>
+			    <div id="follow-wrapper" class="row product-action-wrapper ">
+			    	<div id="product-follow" class="product-action header column product-action-level-0"><a>Follow +</a></div>
+			    </div>
+		    	<div class="row product-action-wrapper social-block prev-row deployable">
+		    		<div id="product-share" class="column product-action product-action-level-0"><a>Share</a>
+		    		</div><div class="column product-action sub"><div class="social-item fb"></div>
+		    		</div><div class="column product-action sub"><div class="social-item twitter"></div>
+		    		</div><div class="column product-action sub"><div class="social-item ig"></div></div>
+		    	</div>
+		    	<div id="skip-wrapper" class="row product-action-wrapper active-row">
+		    		<div id="skip" class="product-action column active-column product-action-level-0"><a id="siguiente" data-source="">Skip</a></div>
+		    	</div>
+		    
+				<div class="row row-carousel next-row bottom type-4">
+					<div id="prodList" class="carousel-wrapper w175">
+						<div class="column carousel-item rect"></div>
+						<div class="column carousel-item rect"></div>
+						<div class="column carousel-item rect"></div>
+						<div class="column carousel-item rect"></div>
+						<div class="clear_div"></div>
+					</div>
+				</div>
+				<div id="promo-box">
+					<div class="promo-intro promo-item">
+						<div class="promo-item-wrapper">
+							<div class="promo-icon"><i class="fas fa-chevron-circle-left"></i></div>
+							<div class="promo-textbox">
+								<div class="promo-value">3 deals<br/>available</div>
+								<div class="promo-label right">Click down to reveal</div>
+							</div>
+						</div>
+					</div>
+					<div id="promo-item-1" class="promo-item hidden">
+						<div class="promo-item-wrapper">
+							<div class="promo-icon"><i class="fas fa-chevron-circle-left"></i></div>
+							<div class="promo-textbox">
+								<div class="promo-label magBot04">Your exclusive offer:</div>
+								<div class="promo-value">Get<br/>20% OFF</div>
+							</div>
+						</div>
+					</div>
+					<div id="promo-item-2" class="promo-item hidden">
+						<div class="promo-item-wrapper">
+							<div class="promo-icon"><i class="fas fa-chevron-circle-left"></i></div>
+							<div class="promo-textbox">
+								<div class="promo-label magBot04">Your exclusive offer:</div>
+								<div class="promo-value">Buy it now<br/>Get 7$ Credit</div>
+							</div>
+						</div>
+					</div>
+					<div id="promo-item-3" class="promo-item hidden">
+						<div class="promo-item-wrapper">
+							<div class="promo-icon"><i class="fas fa-chevron-circle-left"></i></div>
+							<div class="promo-textbox">
+								<div class="promo-label magBot04">Your exclusive offer:</div>
+								<div class="promo-value">Buy one<br/>Get one Free</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="chat-room">
+				    <div id='chat-carousel-inner'>
+						<ul id="chat-carousel-ul" class="chat-wrapper">
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/nayara.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Yuniaar</div>
+									<div class="chat-item-message">This is my favourite beauty product.</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/shadrias.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Awaatif Al Sadek</div>
+									<div class="chat-item-message">So beautiful! I love you!</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/kong.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Naomi Yepes</div>
+									<div class="chat-item-message">I've been using this brand for 10 years. Would never switch</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/sebastian.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Sebastian Bennett</div>
+									<div class="chat-item-message">You are awesome. I'll always trust your recommendations.</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/maeng.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Langke Zambo</div>
+									<div class="chat-item-message">OMG! Get me one! Now! I need this!</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/jube.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Jozef Kondratovich</div>
+									<div class="chat-item-message">You're the best. I only trust your advice.</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/sammy.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Yana Barros</div>
+									<div class="chat-item-message">Does anyone know if this comes in travel size?</div>
+								</div>
+							</li>
+							<li class="chat-item">
+								<div class="chat-item-pic">
+									<img src="../media/creators/sergio.jpg" />
+								</div>
+								<div class="chat-item-text">
+									<div class="chat-item-name">Jurrien Oldhof</div>
+									<div class="chat-item-message">Life changer. I need more.</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div id="context-my-order" class="context-area context-area-secondary my-order hidden">
+				<div class="product-info-box">
+					<div class="product-info-wrapper">
+						<div class="prod-feats">
+							<div class="prod-feats-wrapper">
+								<h2 id="prodTitle"></h2>
+								<div id="prodDesc" class="prod-desc"></div>
+								<div class="prod-brand prod-info-block">
+									<div class="label">Brand Name</div>
+									<div id="prodBrand" class="prod-text"></div>
+								</div>
+								<div class="prod-size prod-info-block">
+									<div class="label">Size</div>
+									<div id="prodSize" class="prod-text"></div>
+								</div>
+								<div class="prod-stock prod-info-block">
+									<div class="prod-text">In-stock</div>
+								</div>
+							</div>
+						</div>
+						<div class="prod-pic-wrapper">
+							<div class="prod-pic">
+								<img id="prodPic" src="" />
+							</div>
+						</div>
+						<div class="prod-order-wrapper">
+							<div class="prod-order">
+								<div class="prod-price">
+									<span class="currency">$</span><span id="prodPrice" class="price"></span>
+								</div>
+								<div id="prodPromoBox" class="prod-claim">
+									<div class="claim-label">Exclusive offer:</div>
+									<div id="prodPromo" class="claim-details"></div>
+								</div>
+								<div class="row prod-shipping prod-info-block">
+									<div class="column">
+										<div class="label">Deliver to</div>
+										<div class="shipping-details">
+											<div class="shipping-icon"><i class="fas fa-map-marker-alt"></i></div>
+											<div class="shipping-address">Goldenfinger, E 2nd Street, Long Beach, CA</div>
+										</div>
+										<a class="order-call edit-btn btn" data-destination="context-edit-details">Edit shipping & payment</a>
+									</div>
+								</div>
+								<div class="row product-order-action prod-qty">
+									<div class="qty-label">Quantity</div>
+									<select name="how-many" id="how-many">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+								<div class="row product-order-action product-buy">
+									<div class="column">
+										<a class="order-call buy-btn btn" data-destination="context-confirmation">Buy Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="context-confirmation" class="context-area context-area-secondary confirmation hidden">
+				<div class="confirmation-wrapper">
+					<div class="ok-message-block confirmation-block">
+						<div class="check green">
+							<i class="fas fa-check-circle"></i>
+						</div>
+						<div>
+							<div class="ok-message-title">Your order has been placed</div>
+							<div class="ok-message-subtitle">You will receive a confirmation email on your address on file. Promotional credits will be applied automatically.</div>
+						</div>
+					</div>
+					<div class="confirmation-block">
+						<div class="items-label">Items</div>
+						<div class="ok-message-block">
+							<div class="check">
+								<i class="far fa-check-circle"></i>
+							</div>
+							<div class="">
+								<div id="prodTitleConfirmation" class="product-name"></div>
+								<span id="prodQtyConfirmation" class="ok-message-subtitle">1x - </span>
+								<span class="currency">$</span><span id="prodPriceConfirmation" class="ok-message-subtitle"></span>
+							</div>
+						</div>
+					</div>
+					<div class="confirmation-block">
+						<div class="label">Deliver to</div>
+						<div class="shipping-details">
+							<div class="shipping-icon"><i class="fas fa-map-marker-alt"></i></div>
+							<div class="shipping-address">Goldenfinger, E 2nd Street, Long Beach, CA</div>
+						</div>
+					</div>
+					<div class="confirmation-block">
+						<div class="label">Expected delivery</div>
+						<div class="prod-text">Jan 12, 2022</div>
+					</div>
+				</div>
+			</div>
+			<div id="context-edit-details" class="context-area context-area-secondary edit-details hidden">
+				<div class="edit-details-wrapper">
+					<div class="not-first-time"><h2>Go to your mobile to change your Shipping & Payment details</h2></div>
+					<div class="first-time">
+						<h2>Register on your phone to checkout</h2>
+						<p>It's easy and you only that to do it the first time</p>
+					</div>
+					<div class="edit-options-box">
+						<div class="edit-options-element edit-details-qr">
+							<div class="qr-caption">Scan this QR code</div>
+							<img src="../media/qr.png" />
+						</div>
+						<div class="edit-options-element edit-details-or">OR</div>
+						<div class="edit-options-element">
+							<div class="qr-caption">We'll send you a text</div>
+							<div class="edit-input-box">
+								<input name="phone"type="tel" placeholder="Enter your phone number" size="24"/>
+								<button><i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

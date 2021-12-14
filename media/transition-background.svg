@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" version="1.1" viewBox="0 0 1920 3120" height="3120px" width="1920px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <title>Home Screen (style)</title>
+    <defs>
+        <radialGradient id="radialGradient-1" gradientTransform="translate(0.500000,0.372222),scale(1.000000,0.615385),rotate(90.000007),scale(1.000000,0.555234),translate(-0.500000,-0.372222)" r="102.013892%" fy="37.2222213%" fx="50%" cy="37.2222213%" cx="50%">
+            <stop offset="0%" stop-color="#29375B"></stop>
+            <stop offset="100%" stop-color="#21272D"></stop>
+        </radialGradient>
+    </defs>
+    <g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="UI-v2">
+        <rect height="3120" width="1920" y="0" x="0" fill-rule="nonzero" fill="url(#radialGradient-1)" id="Home-Screen-(style)"></rect>
+    </g>
+</svg>
